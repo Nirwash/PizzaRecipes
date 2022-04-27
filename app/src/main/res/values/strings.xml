@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pizza Recipes</string>
+    <string name="description">When the user presses the Back button on their device,
+        or when you call FragmentManager.popBackStack(), the top-most fragment transaction is popped </string>
+</resources>
