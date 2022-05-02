@@ -14,8 +14,6 @@ import com.nirwashh.android.pizzarecipes.databinding.FragmentMainBinding
 class MainFragment : Fragment() {
     lateinit var b: FragmentMainBinding
     lateinit var fm: FragmentManager
-    lateinit var list: ArrayList<List>
-    lateinit var adapter: MyAdapter
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
