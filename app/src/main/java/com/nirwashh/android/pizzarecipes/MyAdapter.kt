@@ -10,7 +10,7 @@ class MyAdapter(listMain: ArrayList<ListItem>, contextMAct: Context) : RecyclerV
     var listArray = listMain
     var context = contextMAct
 
-    inner class MyHolder(private val binding: ItemListBinding, contextHolder: Context) : RecyclerView.ViewHolder(binding.root) {
+    inner class MyHolder( val binding: ItemListBinding, contextHolder: Context) : RecyclerView.ViewHolder(binding.root) {
         val context = contextHolder
         fun setData(item: ListItem) {
 
@@ -23,7 +23,14 @@ class MyAdapter(listMain: ArrayList<ListItem>, contextMAct: Context) : RecyclerV
     }
 
     override fun onBindViewHolder(holder: MyHolder, position: Int) {
-        TODO("Not yet implemented")
+        with(holder) {
+            with(listArray[position]) {
+                binding.tvTitle.text = title
+                val descText = desc.substring(0, 50) + "..."
+                binding.tvDescription.text = descText
+                binding.imgPizza.setImageResource(image)
+            }
+        }
     }
 
     override fun getItemCount(): Int = listArray.size

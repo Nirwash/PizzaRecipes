@@ -1,9 +1,9 @@
 package com.nirwashh.android.pizzarecipes
 
 data class ListItem(
-    var title: String = "empty",
-    var desc: String = "empty",
-    var image: Int = 0
+    var title: String,
+    var desc: String,
+    var image: Int
 )
 
 

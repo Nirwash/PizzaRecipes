@@ -2,4 +2,27 @@
     <string name="app_name">Pizza Recipes</string>
     <string name="description">When the user presses the Back button on their device,
         or when you call FragmentManager.popBackStack(), the top-most fragment transaction is popped </string>
+
+    <string name="recipe1">Next level Margherita pizza</string>
+    <string name="recipe2">Pizza Margherita in 4 easy steps</string>
+    <string name="recipe3">Caramelised onion &amp; goat\'s cheese pizza</string>
+    <string name="recipe4">Superhealthy pizza</string>
+    <string name="recipe5">Frying pan pizza</string>
+    <string name="recipe6">Egg &amp; rocket pizzas</string>
+    <string name="recipe7">Sourdough pizza</string>
+    <string name="recipe8">Chicken tikka masala pizzas</string>
+    <string name="recipe9">Ultimate pizza Margherita</string>
+    <string name="recipe10">Pizza with homemade sauce</string>
+
+    <string name="description1">Forget takeaways – you can’t beat a homemade Margherita pizza topped with fresh tomato sauce and melted cheese. Here\'s how to master this everyday classic…</string>
+    <string name="description2">Even a novice cook can master the art of pizza with our simple step-by-step guide. Bellissimo!</string>
+    <string name="description3">Make a veggie pizza that\'s healthy and low-fat instead of ordering a takeaway. This easy recipe uses goat\'s cheese for tang while the onions give it sweetness</string>
+    <string name="description4">The quantities for this are generous, so if you have any leftovers, pop a wedge of cold pizza into your lunchbox the next day</string>
+    <string name="description5">Not good for you? Think again, this easy to make pizza is low fat and full of calcium</string>
+    <string name="description6">Use seeded tortillas as pizza bases for a quick and healthy lunch - crack an egg in the centre and bake to boost protein intake</string>
+    <string name="description7">Make homemade sourdough pizza with a wonderfully chewy crust. Try our margherita recipe, then customise with your favourite toppings</string>
+    <string name="description8">Rustle up our spiced chicken pizzas using naan bread in just 20 minutes. To balance the heat, serve them with dollops of mango chutney and natural yogurt</string>
+    <string name="description9">Take your senses on a trip to Italy with this authentic pizza Margherita</string>
+    <string name="description10">Make pizza for the family with a homemade base and tomato sauce. The recipe is perfect to get kids involved in cooking. Top with mozzarella and fresh basil</string>
+
 </resources>

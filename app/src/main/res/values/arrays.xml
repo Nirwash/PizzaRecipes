@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recipe_name">
+        <item>@string/recipe1</item>
+        <item>@string/recipe2</item>
+        <item>@string/recipe3</item>
+        <item>@string/recipe4</item>
+        <item>@string/recipe5</item>
+        <item>@string/recipe6</item>
+        <item>@string/recipe7</item>
+        <item>@string/recipe8</item>
+        <item>@string/recipe9</item>
+        <item>@string/recipe10</item>
+    </string-array>
+
+    <string-array name="recipe_description">
+        <item>@string/description1</item>
+        <item>@string/description2</item>
+        <item>@string/description3</item>
+        <item>@string/description4</item>
+        <item>@string/description5</item>
+        <item>@string/description6</item>
+        <item>@string/description7</item>
+        <item>@string/description8</item>
+        <item>@string/description9</item>
+        <item>@string/description10</item>
+    </string-array>
+
+    <string-array name="recipe_image">
+        <item>@drawable/pizza1</item>
+        <item>@drawable/pizza2</item>
+        <item>@drawable/pizza3</item>
+        <item>@drawable/pizza4</item>
+        <item>@drawable/pizza5</item>
+        <item>@drawable/pizza6</item>
+        <item>@drawable/pizza7</item>
+        <item>@drawable/pizza8</item>
+        <item>@drawable/pizza9</item>
+        <item>@drawable/pizza10</item>
+    </string-array>
+</resources>
